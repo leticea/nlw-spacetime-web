@@ -20,11 +20,12 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## 💻 Projeto
 
-Projeto desenvolvido em React para a criação de uma cápsula do tempo.
+Projeto desenvolvido com React para a criação de uma cápsula do tempo.
 
 Evento do NLW na plataforma da [Rocketseat](https://www.rocketseat.com.br/).
 
 - [Backend - API](https://github.com/leticea/nlw-spacetime-server)
+- [Frontend React Native - Mobile](https://github.com/leticea/nlw-spacetime-mobile)
 
 ## 🚀 Como Rodar
 
