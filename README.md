@@ -1,34 +1,47 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<p align="center">
+  <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-como-rodar">Como rodar</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-como-contribuir">Como contribuir</a>&nbsp;&nbsp;&nbsp;
+  </p>
 
-## Getting Started
+<br>
 
-First, run the development server:
+## NLW Spacetime
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+## 🚀 Tecnologias
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Esse projeto foi desenvolvido com as seguintes tecnologias:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- [Nodejs](https://nodejs.org/en/) - v18.12.1
+- [Npm](https://www.npmjs.com/) - 8.19.2
+- [Nextjs](https://nextjs.org/)
+- [Tailwind](https://tailwindcss.com/)
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## 💻 Projeto
 
-## Learn More
+Projeto desenvolvido em React para a criação de uma cápsula do tempo.
 
-To learn more about Next.js, take a look at the following resources:
+Evento do NLW na plataforma da [Rocketseat](https://www.rocketseat.com.br/).
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- [Backend - API](https://github.com/leticea/nlw-spacetime-server)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## 🚀 Como Rodar
 
-## Deploy on Vercel
+- Clone o projeto.
+- Clone o projeto da API para rodar o projeto junto.
+- Entre na pasta do projeto e rode 'npm install' (use 'yarn install' se for essa a sua configuração).
+- npm run dev para rodar o projeto na porta indicada.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 🤔 Como contribuir
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- Faça um fork desse repositório;
+- Cria uma branch com a sua feature: `git checkout -b minha-feature`;
+- Faça commit das suas alterações: `git commit -m 'feat: Minha nova feature'`;
+- Faça push para a sua branch: `git push origin minha-feature`.
+
+Depois que o merge da sua pull request for feito, você pode deletar a sua branch.
+
+## 📝 Licença
+
+Esse projeto está sob a licença MIT.
