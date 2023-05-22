@@ -7,6 +7,10 @@
 
 <br>
 
+<p align="center">
+  <img alt="" src=".github/wallpaper.png">
+</p>
+
 ## NLW Spacetime
 
 ## 🚀 Tecnologias
@@ -24,8 +28,8 @@ Projeto desenvolvido com React para a criação de uma cápsula do tempo.
 
 Evento do NLW na plataforma da [Rocketseat](https://www.rocketseat.com.br/).
 
-- [Backend - API](https://github.com/leticea/nlw-spacetime-server)
-- [Frontend React Native - Mobile](https://github.com/leticea/nlw-spacetime-mobile)
+- [Back-end - API](https://github.com/leticea/nlw-spacetime-server)
+- [Front-end React Native - Mobile](https://github.com/leticea/nlw-spacetime-mobile)
 
 ## 🚀 Como Rodar
 
