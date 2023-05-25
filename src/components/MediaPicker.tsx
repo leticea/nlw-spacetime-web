@@ -18,7 +18,7 @@ export function MediaPicker() {
   }
 
   return (
-    <div>
+    <>
       <input
         onChange={onFileSelected}
         type="file"
@@ -33,6 +33,6 @@ export function MediaPicker() {
           className="aspect-video w-full rounded-lg object-cover"
         />
       )}
-    </div>
+    </>
   );
 }
