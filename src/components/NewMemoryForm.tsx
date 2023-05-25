@@ -15,7 +15,7 @@ export function NewMemoryForm() {
 
   return (
     <form
-      onSubmit={() => console.log("submit")}
+      onSubmit={handleCreateMemory}
       className="flex flex-1 flex-col gap-2"
     >
       <div className="flex items-center gap-4">
