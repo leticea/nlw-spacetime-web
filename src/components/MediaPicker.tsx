@@ -23,6 +23,7 @@ export function MediaPicker() {
         onChange={onFileSelected}
         type="file"
         id="media"
+        accept="image/*"
         className="invisible h-0 w-0"
       />
 
