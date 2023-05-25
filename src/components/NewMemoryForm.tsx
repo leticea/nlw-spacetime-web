@@ -4,11 +4,9 @@ import { Camera } from "lucide-react";
 import { MediaPicker } from "./MediaPicker";
 import { FormEvent } from "react";
 import { api } from "@/lib/api";
-import { cookies } from "next/headers";
+import Cookie from "js-cookie";
 
 export function NewMemoryForm() {
-  const sdaasda = cookies()
-
   async function handleCreateMemory(event: FormEvent<HTMLFormElement>) {
     event.preventDefault();
 
@@ -27,6 +25,8 @@ export function NewMemoryForm() {
       coverUrl = uploadResponse.data.fileUrl;
     }
 
+    const token = Cookie.get("token");
+
     await api.post(
       "/memories",
       {
@@ -36,7 +36,7 @@ export function NewMemoryForm() {
       },
       {
         headers: {
-          Authorization:
+          Authorization: `Bearer ${token}`,
         },
       }
     );
