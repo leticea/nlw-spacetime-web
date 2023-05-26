@@ -21,7 +21,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - [Npm](https://www.npmjs.com/) - 8.19.2
 - [Nextjs](https://nextjs.org/) - 13.4.3
 - [TypeScript](https://nextjs.org/) - 5.0.4
-- [Tailwind](https://tailwindcss.com/) - 3.3.2
+- [Tailwindcss](https://tailwindcss.com/) - 3.3.2
 - [Lucide-React](https://lucide.dev/)
 - [JWT](https://jwt.io/)
 
