@@ -2,6 +2,13 @@ import { cookies } from "next/headers";
 import { EmptyMemories } from "@/components/EmptyMemories";
 import { api } from "@/lib/api";
 
+interface Memory {
+  id: string;
+  coverUrl: string;
+  excerpt: string;
+  createdAt: string;
+}
+
 export default async function Home() {
   const isAuthenticated = cookies().has("token");
 
@@ -16,7 +23,23 @@ export default async function Home() {
     },
   });
 
-  const memories = response.data;
+  const memories: Memory[] = response.data;
 
-  return <div>{JSON.stringify(memories)}</div>;
+  if (memories.length === 0) {
+    return <EmptyMemories />;
+  }
+
+  return (
+    <div className="flex flex-col gap-10 p-8">
+      {memories.map((memory) => {
+        return (
+          <div key={memory.id} className="space-y-4">
+            <time className="-ml-8 flex items-center gap-2 text-sm text-gray-100 before:h-px before:w-5 before:bg-gray-50">
+              {memory.createdAt}
+            </time>
+          </div>
+        );
+      })}
+    </div>
+  );
 }
