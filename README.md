@@ -7,11 +7,11 @@
 
 <br>
 
+# NLW Spacetime
+
 <p align="center">
   <img alt="" src=".github/wallpaper.png">
 </p>
-
-## NLW Spacetime
 
 ## 🚀 Tecnologias
 
@@ -19,9 +19,11 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 - [Nodejs](https://nodejs.org/en/) - v18.12.1
 - [Npm](https://www.npmjs.com/) - 8.19.2
-- [Nextjs](https://nextjs.org/)
-- [Tailwind](https://tailwindcss.com/)
-- [Lucide](https://lucide.dev/)
+- [Nextjs](https://nextjs.org/) - 13.4.3
+- [TypeScript](https://nextjs.org/) - 5.0.4
+- [Tailwind](https://tailwindcss.com/) - 3.3.2
+- [Lucide-React](https://lucide.dev/)
+- [JWT](https://jwt.io/)
 
 ## 💻 Projeto
 
@@ -31,6 +33,18 @@ Evento do NLW na plataforma da [Rocketseat](https://www.rocketseat.com.br/).
 
 - [Back-end - API](https://github.com/leticea/nlw-spacetime-server)
 - [Front-end React Native - Mobile](https://github.com/leticea/nlw-spacetime-mobile)
+
+<p align="center">
+  <img alt="" src=".github/image.png">
+</p>
+
+<p align="center">
+  <img alt="" src=".github/image2.png">
+</p>
+
+<p align="center">
+  <img alt="" src=".github/image3.png">
+</p>
 
 ## 🚀 Como Rodar
 
