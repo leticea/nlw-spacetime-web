@@ -19,6 +19,8 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 - [Nodejs](https://nodejs.org/en/) - v18.12.1
 - [Npm](https://www.npmjs.com/) - 8.19.2
+- [Axios](https://axios-http.com/docs/intro) - 1.4.0
+- [React](https://react.dev/) - 18.2.0
 - [Nextjs](https://nextjs.org/) - 13.4.3
 - [TypeScript](https://nextjs.org/) - 5.0.4
 - [Tailwindcss](https://tailwindcss.com/) - 3.3.2
